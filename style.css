@@ -1,0 +1,44 @@
+main{
+    height: 100%;
+    width: 100%;
+}
+
+.bullet{
+display: flex;
+margin: 15% 0 5% 0;
+justify-content: center;
+box-sizing: border-box;
+
+}
+
+h1{
+    font-family: 'Bebas Neue', cursive; 
+display: flex;
+justify-content: center;
+text-align: center;
+box-shadow: 20px 20px 20px gray, -10px -10px 20px gray;
+width: 50%;
+border-radius: 15px;
+margin: 5% auto;
+}
+
+.imagen{
+    box-shadow: 20px 20px 20px gray, -10px -10px 20px gray;
+    border-radius: 20px;
+    width: 20%;
+}
+@media (max-width: 400px) {
+    .imagen{
+        width:50%;
+        margin: 30% 0 15% 0;
+    }
+    h1{
+        width: max-content;
+        font-size: larger;
+    }
+    
+}
+.pie-pagina{
+    text-align: center;
+    margin-top: 10%;
+}
