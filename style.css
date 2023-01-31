@@ -21,6 +21,8 @@ box-shadow: 20px 20px 20px gray, -10px -10px 20px gray;
 width: 50%;
 border-radius: 15px;
 margin: 5% auto;
+left: 25%;
+position: absolute;
 }
 
 .imagen{
