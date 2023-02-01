@@ -13,16 +13,20 @@ box-sizing: border-box;
 }
 
 h1{
-    font-family: 'Bebas Neue', cursive; 
+position: absolute;
 display: flex;
 justify-content: center;
 text-align: center;
-box-shadow: 20px 20px 20px gray, -10px -10px 20px gray;
+/*left: 25%;*/
+
 width: 50%;
-border-radius: 15px;
 margin: 5% auto;
-left: 25%;
-position: absolute;
+
+
+font-family: 'Bebas Neue', cursive;
+box-shadow: 20px 20px 20px gray, -10px -10px 20px gray;
+border-radius: 15px;
+
 }
 
 .imagen{
@@ -36,6 +40,10 @@ position: absolute;
         margin: 30% 0 15% 0;
     }
     h1{
+        position: absolute;
+        display: flex;
+        justify-content: center;
+        text-align: center;
         width: max-content;
         font-size: larger;
     }
@@ -43,5 +51,5 @@ position: absolute;
 }
 .pie-pagina{
     text-align: center;
-    margin-top: 10%;
+    margin-top: 30%;
 }
