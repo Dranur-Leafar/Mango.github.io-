@@ -12,7 +12,7 @@ box-sizing: border-box;
 
 }
 
-h1{
+#anuncio{
 position: absolute;
 display: flex;
 justify-content: center;
@@ -20,7 +20,7 @@ text-align: center;
 /*left: 25%;*/
 
 width: 50%;
-margin: 5% auto;
+margin: 20% auto;
 
 
 font-family: 'Bebas Neue', cursive;
@@ -34,18 +34,19 @@ border-radius: 15px;
     border-radius: 20px;
     width: 20%;
 }
-@media (max-width: 400px) {
+@media (max-width: 760px) {
     .imagen{
         width:50%;
         margin: 30% 0 15% 0;
     }
-    h1{
+    #anuncio{
         position: absolute;
         display: flex;
         justify-content: center;
         text-align: center;
         width: max-content;
         font-size: larger;
+        margin-top: 80%;
     }
     
 }
